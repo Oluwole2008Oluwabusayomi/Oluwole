@@ -1,0 +1,234 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayo's Dumplings House</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- This is my bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- This is my css link -->
+     
+
+</head>
+
+<body>
+
+    <header>
+        <!-- This is my navigation -->
+
+        <nav class="navbar navbar-expand-lg bg-primary " data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contact us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Servies</a>
+                        </li>
+                        
+                            
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!-- This is my carousel/hero-section -->
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="./dumpling.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-flex-column justify-content-column align-items-center h-100">
+                  <h1 class="display-3 fw-bold mt-5 mb-3">Dumpling House</h1>
+                  <p>We bring the world to your kitchen</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./hotpot.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./sweet.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </header>
+
+    <main>
+        <div class="row">
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card h-100" style="width: 18rem;">
+                    <img src="./chick.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Kung Pao Chicken</h5>
+                      <p class="card-text">Kung Pao chicken is a spicy, stir-fried Chinese dish made with cubes of cooked chicken, peanuts, vegetables, chili peppers, and Sichuan peppercorns.</p>
+                      <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card h-100" style="width: 18rem;">
+                    <img src="./duck.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Peking Roasted Duck</h5>
+                      <p class="card-text">Peking Roasted Duck meat is characterized by its thin, crispy skin, with authentic versions of the dish serving mostly the skin and little meat, sliced in front of the diners by the cook</p>
+                      <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100" style="width: 18rem;">
+                    <img src="./tofu.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Ma Po Tofu</h5>
+                      <p class="card-text">Ma Po Tofu consists of tofu set in a spicy sauce, typically a thin, oily, and bright red suspension, based on douban and douchi  along with minced meat, traditionally beef.</p>
+                      <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100" style="width: 18rem;">
+                    <img src="./ma po tofu.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Char Siu</h5>
+                      <p class="card-text"> Char Siu is a Cantonese-style barbecued pork.Originating in Guangdong, it is eaten with rice, used as an ingredient for noodle dishes or in stir fries, and as a filling for cha siu bao or pineapple buns.</p>
+                      <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100" style="width: 18rem;">
+                    <img src="./chow mein.webp  " class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Chow Mein</h5>
+                      <p class="card-text">Chow mein is a traditional Chinese dish made with egg noodles and stir-fried veggies.The dish is pan-fried so the noodles get a nice crisp to them and then tossed in a yummy sauce.  </p>
+                      <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 ">
+                <div class="card h-100" style="width: 18rem;">
+                    <img src="./fried rice.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Fried Rice</h5>
+                      <p class="card-text">Fried rice is a dish of cooked rice that has been stir-fried in a wok or a frying pan and is usually mixed with other ingredients such as eggs, vegetables, seafood, or meat. </p>
+                      <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100" style="width: 18rem;">
+                    <img src="./twice cook pork slices.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Twice Cooked Pork Slices</h5>
+                      <p class="card-text">Twice Cooked Pork is a classic Sichuan food that involves simmering pork belly steaks in water with spices, such as ginger, cloves, star anise, jujubes, or salt. </p>
+                      <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100" style="width: 18rem;">
+                    <img src="./xiaolongbao.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Xiaolongbao</h5>
+                      <p class="card-text">Xiaolongbao is a type of Chinese tangbao traditionally prepared in a xiaolong, a small bamboo steaming basket. </p>
+                      <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100" style="width: 18rem;">
+                    <img src="./zhajiangmian.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Zhajiangmian</h5>
+                      <p class="card-text"> Zhajiangmian is a dish of Chinese origin consisting of thick wheat noodles topped with zhajiang, a fermented soybean-based sauce. </p>
+                      <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    
+       
+
+            
+        </div>
+
+
+    </main>
+    <!-- footer -->
+     <footer>
+      <div class="footer">
+        <p>&copy; 2025 Sayo's Dumplings House. All rigths reserved.</p>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">services</a></li>
+          <li><a href="">links</a></li>
+          <li><a href="">terms and condition</a></li>
+        </ul>
+
+      </div>
+     </footer>
+     
+
+
+
+
+
+
+
+    <!-- This is my bootstrap link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

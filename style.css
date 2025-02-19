@@ -1,0 +1,58 @@
+
+header{
+    margin-bottom: 10px;
+}
+/* My carousel image style */
+.carousel img{
+    filter: brightness(0.6);
+    max-height: 80vh;
+}
+
+.row{
+    margin-left: 70px;
+    margin-bottom: 50px;
+    margin-top: 60px;
+}
+
+.footer{
+    background-color: #111;
+    padding: 1rem 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+}
+.footer{
+    margin: 0;
+}
+.footer ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+.footer li{
+    margin: 0 0.05rem;
+}
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+@media (max-width: 768px){
+    .footer-content {
+        grid-template-columns: 1fr;
+    }
+    .footer{
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer ul{
+        -ms-flex-direction: column;
+        margin-top: 10px;
+    }
+}
+
+    
+
+
